@@ -7,7 +7,7 @@ import FaceRecognition as fr
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 strr = os.path.abspath('traindata.yml')
 face_recognizer.read(strr)
-name = {1:"Andy",0:"Rachit",2:"Mili",3"Cody",4:"Zack"}
+name = {1:"Andy",0:"Rachit",2:"Mili",3:"Cody",4:"Zack"}
 
 cap = cv2.VideoCapture(0)
 
